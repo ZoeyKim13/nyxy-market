@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-cream text-gray-700 antialiased;
+}
+
+input,
+textarea,
+select {
+  @apply rounded-xl border border-rose-100 bg-white px-4 py-2 outline-none transition focus:border-rose-500;
+}
